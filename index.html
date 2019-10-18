@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- It is able to set the size of board, shows which player is active, and counts the total steps have been moved. Using emoji to mark two players. When the game ends, players will not be able to click any button and winner information will be shown on screen. When chess moves to the top row and the bottom row and [1][0] and oposite position on chessboard, there will be errors. But primary functions have been done. -->
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <title>Luffarschack</title>
+</head>
+
+<body>
+  <header>
+    <h1>Get your brain working!</h1>
+    <button id='beginGame'>Click to begin directly!</button>
+    <br>
+    <p>Set your board: <input id='setBoard' type="number" value=""></p>
+    <button id="setNumber">Set new board</button>
+    <br>
+    <div class='player'>
+      <p class="inactive p1">Player 1</p>
+      <P class="inactive p2">Player 2</p>
+    </div>
+
+    <div class="count">
+      <p class="number">Count number:</p>
+    </div>
+  </header>
+
+  <div id='chessBoard' class="hide">
+  </div>
+
+  <div id="winner" class="hide">
+    <p></p>
+  </div>
+  
+  <script src="main.js"></script>
+  <script src="alg.js"></script>
+</body>
+
+</html>

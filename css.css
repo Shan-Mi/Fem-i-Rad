@@ -1,0 +1,83 @@
+body {
+  font-family: Courier New;
+  text-align: center;
+  background-color: rgb(226, 226, 217);
+  position: relative;
+}
+
+#beginGame {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#setNumber {
+  border-radius: 4px;
+  margin: 3px;
+}
+
+.player {
+  width: 80px;
+  height: auto;
+  display: inline-block;
+  zoom: 1;
+  background: oliveDrab;
+  margin-right: -0.25em;
+}
+
+div #chessBoard {
+  background: none;
+  padding: 0mm;
+}
+
+.button {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(111, 204, 141);
+  border: 1px solid #627a62;
+  padding: 0;
+  vertical-align: top;
+}
+
+.divInLine {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  height: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  background-color: indianred;
+  margin: 0px;
+}
+
+.inactive {
+  background-color: rgb(226, 226, 217);
+  margin: 0px;
+}
+
+#winner {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5em;
+  border: 2px solid #a1a1a1;
+  padding: 10px 30px;
+  background-color: #dddddd;
+  width: 180px;
+  border-radius: 25px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
